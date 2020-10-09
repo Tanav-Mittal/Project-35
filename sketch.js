@@ -91,6 +91,6 @@ function addFood()
 {
   foodS++;
   database.ref('/').update({
-    Food:foodStock
+    Food:foodS
   })
 }
